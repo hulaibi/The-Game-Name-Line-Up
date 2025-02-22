@@ -1,0 +1,17 @@
+// 1) Define game state variables (board representation, player circle counts, current player, overall game state).
+// 2) Cache frequently accessed DOM element references (game board container, win message display, new game button, start screen container, start game button).
+// 3) On page load (DOMContentLoaded):
+//    a) Show the start screen.
+//    b) Attach a click handler to the "Start Game" button.
+//    c) Initialize the game state *only after* the "Start Game" button is clicked.
+// 4)  Within the "Start Game" button's click handler:
+//    a) Hide the start screen.
+//    b) Call the initialize game state function.
+//    c) Render the initial game view.
+// 5) Render the current game state to the user (display board with circles, update player circle counts, show messages).
+// 6) Define constants for representing empty spaces and players (EMPTY, PLAYER_1, PLAYER_2).
+// 7) Handle player clicks on board squares using a `handleClick` function attached to the board container.
+// 8) Within `handleClick`, implement distinct logic for placing new circles (if available) and moving existing circles.
+// 9) Within `handleClick`, after each move, check *only for a win* condition and update the game state accordingly.
+// 10) Implement game reset functionality triggered by the "New Game" button, resetting all relevant game state variables *and showing the start screen again*.
+// 11) Provide clear and immediate visual feedback to the user on successful moves, illegal moves, and the final win outcome.
