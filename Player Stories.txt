@@ -2,7 +2,6 @@ Placement & Movement:
 
 As Player 1, I want to easily place my circles on empty spaces.
 As Player 2, I want to easily place my circles on empty spaces.
-As a player, I want clear feedback when I place or move a circle.
 As a player, I want to know how many circles I have left.
 As a player, I want to easily select and move my placed circles.
 As a player, I don't want to move circles illegally (diagonally, or onto occupied spaces).
@@ -13,9 +12,3 @@ As a player, I want the game to automatically detect and clearly indicate a win 
 As a player, I want a clear message indicating the winner.
 As a player, I want to easily start a new game.
 As a player, I want to be prevented from moving after the game ends.
-
-General:
-
-As a player, I want a clean and intuitive interface.
-As a player, I want the game to run smoothly.
-As a player, I want clear instructions.

@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+  color: rgb(0, 255, 51);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: clamp(24px, 6vw, 75px);
+  margin: 20px auto;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Game board container */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: min(90vw, 350px);
+  background-color: rgb(5, 161, 161);
+  padding: 10px;
+  margin-top: 30px;
+  border: 5px solid rgb(0, 255, 51);
+}
+
+/* Squares */
+.sqr {
+  aspect-ratio: 1/1;
+  background-color: rgb(41, 39, 39);
+  font-size: clamp(32px, 8vw, 64px);
+  border: 3px solid rgb(0, 255, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  margin-top: 30px;
+  background-color: rgb(250, 5, 5);
+  font-size: clamp(24px, 5vw, 50px);
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(200, 0, 0);
+}
+
+.reset {
+  display: none;
+}
+
+/* Message & Score display */
+#message {
+  font-size: clamp(24px, 5vw, 50px);
+  margin-top: 20px;
+}
+
+.balls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  font-size: clamp(30px, 6vw, 70px);
+  margin-top: 20px;
+}
