@@ -10,15 +10,17 @@
 - Win message
 - Call reset function
 
-// 5) Set win combinations
+// 5) Set win (array)
 - winning square sets (rows, cols, )
 
 // 6) Handle square clicks
-- If all pieces placed:
-    - Select and move if valid
-- If placing phase:
+- In placing phase:
     - Place piece if spot is empty and player has pieces
 - After place or move, check for win or switch player
+- If all pieces placed:
+    - Select and move if valid
+    - After move check for win or switch player
+
 
 // 7) Reset game
 - On reset button click, restart game (play again)
