@@ -13,9 +13,8 @@
 - Circles can only be placed in empty squares.
 - The goal is to get **three circles in a row** (horizontal or vertical).
 
-### Phase 2: Movement (if no winner after placement)
-- Once all 9 squares are filled and no player has won:
-  - Players take turns **moving** one of their circles to an **adjacent empty square** (horizontally or vertically).
+### Phase 2: Movement (if no winner after placement 3 Circles)
+- Players take turns **moving** one of their circles to an **adjacent empty square** (horizontally or vertically).
 - The first player to align **three in a row** wins the game.
 
 ## 🖼 Screenshot
