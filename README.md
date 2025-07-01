@@ -1,13 +1,42 @@
-The Game Name is Line Up
+🎯 Line Up
+Line Up is a two-player strategy game inspired by Tic-Tac-Toe — with a twist. Players take turns placing red 🔴 and blue 🔵 circles on a 3x3 grid. The first to line up three in a row (horizontally or vertically) wins. If the grid fills up with no winner, players enter a second phase where they move their pieces one square at a time to try and secure the win.
 
-This is a two-player game played on a 3x3 grid. Players take turns placing their colored circles (one player uses red, the other blue) in empty squares.
-The goal is to get three of your circles in a row, either horizontally or vertically.
-If all the spaces are filled without a winner, players then take turns moving one of their circles to an adjacent empty square (horizontally or vertically) until someone wins by getting three in a row.  It's like a slightly more complex version of tic-tac-toe.
+🔗 Play the Game
 
-the game link https://hulaibi.github.io/The-Game-Name-Line-Up/ .
-Attributions: I use Emojis from https://getemoji.com/ .
-Technologies Used: : JavaScript, HTML,CSS .
-Next steps:make the game onlyn .
+🎮 How to Play
+Place Phase:
+
+Players take turns placing their pieces on empty squares.
+
+The red player 🔴 starts, followed by blue 🔵.
+
+The goal: get three in a row — horizontally or vertically.
+
+Move Phase:
+
+If all spaces are filled and no winner is declared, players take turns moving one of their pieces to an adjacent (up/down/left/right) empty square.
+
+The game continues until someone forms a winning row.
+
+💻 Technologies Used
+HTML
+
+CSS
+
+JavaScript
+
+Emojis from: getemoji.com
+
+🚀 Next Steps
+🌐 Make the game online – enable two players to play remotely over the internet.
+
+🔄 Add undo/restart button.
+
+📱 Make it mobile responsive.
+
+💡 AI opponent (optional).
+
+🖼️ Screenshot
 
 
 Screenshot
